@@ -42,6 +42,7 @@ import {
 } from "lucide-react";
 
 import { FeaturedIn } from "@/components/landing/FeaturedIn";
+import { V3Header } from "@/components/v3/V3Header";
 import { cn } from "@/lib/utils";
 import { faq } from "@/data/faq";
 import { V2ChallengeCalculator } from "@/components/landing/V2ChallengeCalculator";
@@ -628,8 +629,7 @@ export default function V3Page() {
       style={{ fontFamily: "'Inter', system-ui, sans-serif" }}
     >
       <CustomCursor />
-
-
+      <V3Header />
 
       {/* ═══════════════ SECTION 1 — HERO ═══════════════ */}
       <section ref={heroRef} className="min-h-[100svh] lg:h-dvh px-[5px] py-[5px]">
